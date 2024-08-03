@@ -8,7 +8,7 @@ this command will create a new directory (folder), where `mkdir` stands for (mak
 you can name it as you like, in this case it's `catkin_ws`, this is where all your work will be saved. <br>
 2- ```cd catkin_ws/``` <br>
 use this command to get into you work space, where `cd` stands for (change directory) followed by the directory name,<br>
-this command is used to navigate through directories
+this command is used to navigate through directories <br>
 3- ```mkdir src``` <br>
 this command will create a new folder where all your source code files will be saved and organized <br>
 4- ```catkin_make``` <br>
@@ -44,14 +44,14 @@ Finally <br>
 5- ```catkin_make```
 <h3>Controlling The Robot Arm</h3> <br>
 
-```roslaunch robot_arm_pkg check_motors.launch```<br>
+1- ```roslaunch robot_arm_pkg check_motors.launch```<br>
 this will launch RViz you can control the arm using the side panel <br>
 ![ros robot arm done](https://github.com/user-attachments/assets/f619115e-6b3a-40d0-8131-48b785765ec8) <br>
 
-```roslaunch robot_arm_pkg check_motors_gazebo.launch``` <br>
+2- ```roslaunch robot_arm_pkg check_motors_gazebo.launch``` <br>
 this will launch Gazebo which is simulator for checking motors and components of the robot arm <br>
 ![ros gazebo lts edited](https://github.com/user-attachments/assets/6c5b5b65-3f8a-4f9b-869a-0395020c7691)<br>
 
-```roslaunch moveit_pkg demo.launch``` <br>
+3- ```roslaunch moveit_pkg demo.launch``` <br>
 here you can plan and control the robot arm motion
 ![ros moveit rviz edited diff](https://github.com/user-attachments/assets/6822f011-a092-4b2a-b553-a7243864115e)
