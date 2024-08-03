@@ -3,7 +3,7 @@ controlling the robot arm on ros noetic using joint_state_publisher, moveit and 
 Starting off you have to prepare a work space on ros
 <h3>Create and Setup Work Space Using Catkin </h3> <br>
 
-1- ```mkdir catkin_ws```
+1- ```mkdir catkin_ws``` <br>
 this command will create a new directory (folder), where `mkdir` stands for (make directory) then <br>
 you can name it as you like, in this case it's `catkin_ws`, this is where all your work will be saved. <br>
 2- ```cd catkin_ws/``` <br>
@@ -12,7 +12,7 @@ this command is used to navigate through directories
 3- ```mkdir src``` <br>
 this command will create a new folder where all your source code files will be saved and organized <br>
 4- ```catkin_make``` <br>
-this command will build your catkin work space, you might need to install catkin first so use this command <br>
+this command will build your catkin work space, you might need to install catkin first so use this command: <br>
 `sudo apt install catkin` <br>
 ![ros catkin set up](https://github.com/user-attachments/assets/2dc44a69-6ae3-4486-9355-655d7b7ada01)
 5- ```source devel/setup.bash``` <br>
