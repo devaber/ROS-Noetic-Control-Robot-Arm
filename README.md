@@ -2,7 +2,7 @@
 controlling the robot arm on ros noetic using joint_state_publisher, moveit and kinematics
 Starting off you have to prepare a work space on ros
 <h3>Create and Setup Work Space Using Catkin </h3> <br>
-1- ```mkdir catkin_ws``` <br>
+```mkdir catkin_ws```
 this command will create a new directory (folder), where `mkdir` stands for (make directory) then <br>
 you can name it as you like, in this case it's `catkin_ws`, this is where all your work will be saved. <br>
 2- ```cd catkin_ws/``` <br>
